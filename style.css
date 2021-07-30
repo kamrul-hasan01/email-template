@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body{
+    background-color: rgb(133, 133, 133);
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.email-body{
+    width: 45%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.head-sec{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+    height: 180px;
+    
+}
+header img{
+    width: 50%;
+    height: 180px;
+    background-color: crimson;
+}
+header h1{
+    margin-top: 50px;
+    margin-left: -10%;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: italic;
+}
+.user{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.user img{
+    width: 250px;
+    border-radius: 50%;
+}
+.user h2{
+    font-size: 30px;
+    font-weight: 400;
+
+}
+.msg-body{
+    padding: 10px 30px;
+    background-color: rgb(255, 255, 255);
+}
+.flex-btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+button{
+   
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+  
+  
+    border-radius: 5px;
+  
+    
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-p1{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+.fab-link{
+    margin-top: 20px ;
+    font-size: 20px;
+}
+.fab{
+    padding: 5px;
+}
+.footer-p2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.footer-p2 a{
+    text-decoration: none;
+    padding:  5px 5px;
+}
+
+
