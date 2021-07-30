@@ -3,7 +3,7 @@
 
 
 body{
-    background-color: rgb(133, 133, 133);
+    background-color: rgba(207, 204, 204, 0.24);
     font-family: 'Open Sans', sans-serif;
 }
 .container{
@@ -19,18 +19,23 @@ body{
     margin-top: 5px;
     /* margin-bottom: 50px; */
 }
+header{
+    background-color: rgba(117, 117, 182, 0.623);
+
+}
 .head-sec{
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     height: 180px;
     
 }
 header img{
     width: 50%;
     height: 180px;
-    background-color: crimson;
+    
+  
 }
 header h1{
     margin-top: 50px;
@@ -80,8 +85,13 @@ button a{
     color: white;
     font-size: 20px;
 }
+.msg-body p{
+    font-size: 15px;
+    font-weight: 100;
+}
 footer{
     padding: 10px 0 20px 0;
+    background-color: rgba(117, 117, 182, 0.623);
 }
 .footer-p1{
     display: flex;
@@ -89,8 +99,11 @@ footer{
     align-content: center;
     
 }
+.fas{
+    margin-right: 10px;
+}
 .fab-link{
-    margin-top: 20px ;
+    margin-top: 30px ;
     font-size: 25px;
 }
 .fab{
@@ -105,6 +118,14 @@ footer{
 .footer-p2 a{
     text-decoration: none;
     padding:  5px 5px;
+    color: white;
+}
+.footer-p2 a:hover::after{
+    display: block;
+    height: 2px;
+    width: 100%;
+    content: ' ';
+    background-color: tomato;
 }
 
 
